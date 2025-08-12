@@ -6,12 +6,12 @@ import java.util.List;
 import java.util.Map;
 
 /**
-* @apiNote This interface is used to create state machine
- * @param S - state
- * @param E - event
- * @param I - id
-* @see dev.ivanov.state.machine.StateMachine
-*/
+ * Default implementation of the state machine
+ * @param <S> state
+ * @param <E> event
+ * @param <I> id
+ * @see dev.ivanov.state.machine.StateMachine
+ */
 public class DefaultStateMachine<S, E, I> implements StateMachine<S, E, I> {
 
   private Map<S, Map<E, S>> config = new HashMap<>();

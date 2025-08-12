@@ -6,8 +6,8 @@ import java.util.Optional;
 
 /**
  * StatePersister implementation that stores state in memory
- * @param S - state
- * @param I - id
+ * @param <S> state
+ * @param <I> id
  * @see dev.ivanov.state.machine.StatePersister
  */
 public class LocalPersister<S, I> implements StatePersister <S, I> {

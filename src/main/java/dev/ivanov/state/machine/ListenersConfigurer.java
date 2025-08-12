@@ -9,9 +9,9 @@ import java.util.Map;
 /**
  * Configure listeners of the state machine
  * @see dev.ivanov.state.machine.StateMachine
- * @param S - state
- * @param E - event
- * @param I - id
+ * @param <S> state
+ * @param <E> event
+ * @param <I> id
  */
 public class ListenersConfigurer<S, E, I> {
 

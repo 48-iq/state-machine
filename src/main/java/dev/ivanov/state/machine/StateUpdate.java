@@ -2,9 +2,9 @@ package dev.ivanov.state.machine;
 /**
  * Data class that contains information about state change
  * @see dev.ivanov.state.machine.StateMachine
- * @param S - state
- * @param E - event
- * @param I - id
+ * @param <S> - state
+ * @param <E> - event
+ * @param <I> - id
  */
 public class StateUpdate <S, E, I> {
   private I id;
