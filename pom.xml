@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>dev.ivanov</groupId>
 	<artifactId>state-machine</artifactId>
-	<version>1.0.0</version>
+	<version>1.0.1</version>
 	<name>state-machine</name>
 	<description>symple library for use state machine</description>
 	<url/>
