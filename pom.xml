@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>dev.ivanov</groupId>
+	<artifactId>state-machine</artifactId>
+	<version>1.0.0</version>
+	<name>state-machine</name>
+	<description>symple library for use state machine</description>
+	<url/>
+	<licenses>
+    <license>
+        <name>MIT License</name>
+        <url>http://www.opensource.org/licenses/mit-license.php</url>
+    </license>
+</licenses>
+	<developers>
+		<developer>
+			<id>48-iq</id>
+      <name>Ivanov Ilya</name>
+      <email>ivn25ov@mail.ru</email>
+      <url>https://github.com/48-iq</url>
+		</developer>
+	</developers>
+	<scm>
+		<connection/>
+		<developerConnection/>
+		<tag/>
+		<url/>
+	</scm>
+
+	<distributionManagement>
+    <repository>
+      <id>github</id>
+      <name>48-iq</name>
+      <url>https://maven.pkg.github.com/48-iq/state-machine</url>
+    </repository>
+  </distributionManagement>
+
+	<properties>
+		<java.version>21</java.version>
+	</properties>
+	<dependencies>
+		<!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api -->
+		<dependency>
+				<groupId>org.junit.jupiter</groupId>
+				<artifactId>junit-jupiter-api</artifactId>
+				<version>5.13.4</version>
+				<scope>test</scope>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-engine -->
+		<dependency>
+				<groupId>org.junit.jupiter</groupId>
+				<artifactId>junit-jupiter-engine</artifactId>
+				<version>5.13.4</version>
+				<scope>test</scope>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-params -->
+		<dependency>
+				<groupId>org.junit.jupiter</groupId>
+				<artifactId>junit-jupiter-params</artifactId>
+				<version>5.13.4</version>
+				<scope>test</scope>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.junit.platform/junit-platform-suite -->
+		<dependency>
+				<groupId>org.junit.platform</groupId>
+				<artifactId>junit-platform-suite</artifactId>
+				<version>1.13.4</version>
+				<scope>test</scope>
+		</dependency>
+	</dependencies>
+	
+	<build>
+		<plugins>
+		</plugins>
+	</build>
+
+</project>
